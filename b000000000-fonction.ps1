@@ -28,7 +28,7 @@ function Stagiaire {
    }
    
    # Appel de la fonction
-   Stagiaire Alice 35 
+   Stagiaire Toronto 35 
   
 
 
