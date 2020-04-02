@@ -21,9 +21,9 @@ function Stagiaire {
        )
    
     # message de bienvenue 
-       # message de bienvenue 
-
+    BEGIN {Write-Verbose "Début du script"}
     PROCESS { "Bonjour {0} ! Tu as {1} ans." -F $personneNom, $personneAge }
+    END {Write-Verbose "Fin du script"}
 
 }
 
