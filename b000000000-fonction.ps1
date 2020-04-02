@@ -28,6 +28,7 @@ function Stagiaire {
    }
    
    # Appel de la fonction
-   Stagiaire Alice 35
+   Stagiaire Alice 35 
+  
 
 

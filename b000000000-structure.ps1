@@ -28,6 +28,8 @@ switch ($personneAge) {
 $villes = "Toronto","Mississauga","Scarborough","Brampton"
 for ($i = 0; $i -le $villes.Count; $i = $i + 1) {
     $villes[$i]
+    
+    
 }
 
 "{0}" -F ($villes.Count % 2)
