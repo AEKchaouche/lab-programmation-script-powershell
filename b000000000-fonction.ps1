@@ -21,11 +21,12 @@ function Stagiaire {
        )
    
     # message de bienvenue 
-       BEGIN {Write-Verbose "Début du script"}
-       PROCESS { "Bonjour {0} ! Tu as {1} ans." -F $personneNom, $personneAge }
-       END {Write-Verbose "Fin du script"}
-   
-   }
+       # message de bienvenue 
+
+    PROCESS { "Bonjour {0} ! Tu as {1} ans." -F $personneNom, $personneAge }
+
+}
+
    
    # Appel de la fonction
    Stagiaire Toronto 35 
