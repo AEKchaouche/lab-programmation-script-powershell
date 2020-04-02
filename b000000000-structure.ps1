@@ -6,7 +6,7 @@
     Ce script est utilisé pour le laboratoire de programmation en Powershell.
 
 .NOTES
-    Author: ordenrosae
+    Author: 300106918
     Derniere mise à jour: yyyy-mm-dd
 
 #>
